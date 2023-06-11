@@ -1,0 +1,46 @@
+.card{
+    padding: 1.5rem;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: 7px solid var(--silver);
+    border-style: double;
+
+    color: var(--color);
+
+    transition: background-color .3s, transform .3s ;
+
+    margin-bottom: 1.5rem;
+
+    background-image: url('/img/got-background.jpg');
+    background-size: cover;
+}
+
+.card:hover{
+    opacity: 75%;
+    transform: scale(.975)
+
+}
+
+.cardImage{
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: 1rem;
+
+    background-size: cover;
+    background-position: center;
+
+    border: 2px solid var(--silver);
+
+
+}
+
+.cardName{
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+}
