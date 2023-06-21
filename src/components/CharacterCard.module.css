@@ -19,6 +19,7 @@
 
     background-image: url('/img/got-background.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .card:hover{
